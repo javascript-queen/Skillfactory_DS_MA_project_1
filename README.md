@@ -12,10 +12,10 @@
 
 [5. Conclusions](https://github.com/javascript-queen/Skillfactory_DS_MA_project_1/README.md#Conclusions)
 
-### 1. Project description
+### Project description
 Guess the number guessed by the computer using the minimum number of attempts (20 in our case).
 
-### 2. Which case is being solved? 
+### Which case is being solved? 
 The initial program should guess the number guessed by the computer in the minimum number of attempts.
 
 **The conditions of the game:**
@@ -31,7 +31,7 @@ Results are assessed by the average number of attempts per 1000 repetitions
 
 The use of the Binary Search algorithm with Python and a simple guessing game.
 
-### 3. Steps
+### Steps
 
 **1. Choosing algorithm:**
 
@@ -51,10 +51,10 @@ In order for the binary search to work, WE must keep track of OUR previous MAX &
 
 - Otherwise, if the guess was too high, we should set the max = predicted value. We do not go above that maximum value.
 
-### 4. Results
+### Results
 
 Eventually, the algorithm finds the best guess in less than 20 attempts. The average is 7 according to the computation.
 
-### 5. Conclusions
+### Conclusions
 
 The Big O notation for Binary Search is O(log N). This algorithm works efficiently with sorted lists. We used the algorithm to be able to find the guessed number in less than 20 attempts.

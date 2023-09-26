@@ -3,7 +3,7 @@
 # Project 1. Guess the number Game
 ## Table of Contents
 
-1. Project Description 
+1. Project Description
 
 2. Which case is being solved?
 
@@ -14,7 +14,7 @@
 5. Conclusions
 
 ### 1. Project description
-Guess the number guessed by the computer using the minimum number of attempts (20 in our case).
+Guess the number guessed by the computer using the minimum number of attempts (less than 20 in our case).
 
 ### 2. Which problem is being solved? 
 The initial program should guess the number guessed by the computer in the minimum number of attempts.
@@ -54,7 +54,7 @@ In order for the binary search to work, WE must keep track of OUR previous MAX &
 
 ### 4. Results
 
-Eventually, the algorithm finds the best guess in less than 20 attempts. The average is 7 according to the computation.
+Eventually, the algorithm finds the best guess in less than 20 attempts. The average is 1 attempt according to the computation.
 
 ### 5. Conclusions
 

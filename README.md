@@ -2,20 +2,21 @@
 
 # Project 1. Guess the number Game
 ## Table of Contents
-[1. Project Description](https://github.com/javascript-queen/Skillfactory_DS_MA_project_1/README.md#Project-description)
 
-[2. Which case is being solved?](https://github.com/javascript-queen/Skillfactory_DS_MA_project_1/README.md#Which-case-is-being-solved)
+1. Project Description 
 
-[3. Steps](https://github.com/javascript-queen/Skillfactory_DS_MA_project_1/README.md#Steps)
+2. Which case is being solved?
 
-[4. Results](https://github.com/javascript-queen/Skillfactory_DS_MA_project_1/README.md#Results)
+3. Steps
 
-[5. Conclusions](https://github.com/javascript-queen/Skillfactory_DS_MA_project_1/README.md#Conclusions)
+4. Results
+   
+5. Conclusions
 
-### Project description
+### 1. Project description
 Guess the number guessed by the computer using the minimum number of attempts (20 in our case).
 
-### Which case is being solved? 
+### 2. Which problem is being solved? 
 The initial program should guess the number guessed by the computer in the minimum number of attempts.
 
 **The conditions of the game:**
@@ -31,7 +32,7 @@ Results are assessed by the average number of attempts per 1000 repetitions
 
 The use of the Binary Search algorithm with Python and a simple guessing game.
 
-### Steps
+### 3. Steps
 
 **1. Choosing algorithm:**
 
@@ -51,10 +52,10 @@ In order for the binary search to work, WE must keep track of OUR previous MAX &
 
 - Otherwise, if the guess was too high, we should set the max = predicted value. We do not go above that maximum value.
 
-### Results
+### 4. Results
 
 Eventually, the algorithm finds the best guess in less than 20 attempts. The average is 7 according to the computation.
 
-### Conclusions
+### 5. Conclusions
 
 The Big O notation for Binary Search is O(log N). This algorithm works efficiently with sorted lists. We used the algorithm to be able to find the guessed number in less than 20 attempts.

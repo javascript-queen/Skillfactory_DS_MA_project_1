@@ -54,7 +54,7 @@ In order for the binary search to work, WE must keep track of OUR previous MAX &
 
 ### 4. Results
 
-Eventually, the algorithm finds the best guess in less than 20 attempts. The average is 1 attempt according to the computation.
+Eventually, the algorithm finds the best guess in less than 20 attempts. The average is 7 attempts according to the computation.
 
 ### 5. Conclusions
 
